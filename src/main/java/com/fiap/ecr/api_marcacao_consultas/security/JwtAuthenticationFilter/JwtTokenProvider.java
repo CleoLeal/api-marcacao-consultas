@@ -1,0 +1,5 @@
+package com.fiap.ecr.api_marcacao_consultas.security.JwtAuthenticationFilter;
+
+public class JwtTokenProvider
+{
+}
