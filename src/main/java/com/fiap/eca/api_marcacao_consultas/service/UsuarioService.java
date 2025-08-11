@@ -96,4 +96,8 @@ public class UsuarioService {
 
         return usuario;
     }
+    public Usuario buscarPorEmail(String email) {
+        return usuarioRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("Usuário não encontrado"));
+    }
 }
